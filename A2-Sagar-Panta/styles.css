@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fff, #f7f7f7);
+  margin: 0;
+  padding: 0;
+  background-image:url('images/food2.png'), url('images/food6.png'),url('images/food4.png') ;
+  background-repeat: repeat,repeat,repeat;
+  
+  background-position: center;
+}
+
+header {
+  background: #333;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 140px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.logo-another{
+  width: 100px;
+  height: 70px;
+  margin-left: 90px;
+}
+
+.logo-text {
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0; 
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.recipe {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.recipe h2 {
+  color: #333;
+  text-align: center;
+}
+
+.recipe img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: 300px;
+}
+
+.recipe h3 {
+  color: #333;
+}
+
+.recipe ul,
+.recipe ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
+.github-logo {
+  width: 55px;
+  height:auto;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 120px;
+    height: 65px;
+  }
+
+  .logo-another {
+    width: 80px;
+    height: 55px;
+  }
+
+  .recipe img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .logo img {
+    width: 100px;
+    height: 55px;
+  }
+
+  .logo-another {
+    display: none;
+  }
+
+  .recipe img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+
+
+
